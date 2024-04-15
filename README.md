@@ -3,7 +3,7 @@
 NETLIFY LINKS
 Digital Dynasty - 
 Paul Angelo Reyes - 
-Shamma San Jose Bergado - 
+Shamma San Jose Bergado - https://bergado-shamma.netlify.app
 John Ruiz Parayno Reyes - 
 Mary Nicole Perillo Norona - 
 Daisy Cangayda Morcoso - 
