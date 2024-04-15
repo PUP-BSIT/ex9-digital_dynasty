@@ -1,0 +1,44 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./pictures/background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.name img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200%;
+    height: auto;
+}
+
+.hobbies-and-interests, .works, #testimonials, .gallery {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.hobbies-and-interests h2, .works h2, #testimonials h2, .gallery h2 {
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.gallery img {
+    width: 180px;
+    height: 100px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+#first::after, #second::after, #third::after, #fourth::after, #fifth::after {
+    content:"\a";
+    white-space: pre;
+}
