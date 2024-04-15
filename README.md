@@ -1,9 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/CAbaIWfq)
 
 NETLIFY LINKS
-Digital Dynasty - 
-Paul Angelo Reyes - 
+Digital Dynasty - https://group-digital-dynasty.netlify.app/
+Paul Angelo Reyes - https://reyes-paulangelo.netlify.app/
 Shamma San Jose Bergado - https://bergado-shamma.netlify.app
-John Ruiz Parayno Reyes - 
-Mary Nicole Perillo Norona - 
+John Ruiz Parayno Reyes - https://reyes-john-ruiz.netlify.app/
+Mary Nicole Perillo Norona - https://661d48daeb9ee700bbf39e08--norona-mary-nicole.netlify.app/
 Daisy Cangayda Morcoso - 
