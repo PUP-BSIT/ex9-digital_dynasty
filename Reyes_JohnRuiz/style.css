@@ -97,16 +97,16 @@ form {
   "message ."
   "submit submit";
   border: 1px solid;
-  padding: 20px; /* Increased padding for better design */
-  border-radius: 8px; /* Added border-radius for rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for depth */
-  width: auto; /* Set to auto to adjust to content width */
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: auto;
   box-sizing: border-box;
-  background-color: rgba(148, 176, 185, 0.963); /* Matched background color */
+  background-color: rgba(148, 176, 185, 0.963); 
 }
 
 #email, #name, #subject, #age, #message, #smcopy, #submit {
-  padding: 10px; /* Added padding for better appearance */
+  padding: 10px; 
 }
 
 #email {
@@ -127,9 +127,9 @@ form {
 
 #message {
   grid-area: message;
-  width: 100%; /* Adjusted width for responsiveness */
-  height: 150px; /* Increased height for better appearance */
-  resize: vertical; /* Allows vertical resizing */
+  width: 100%; 
+  height: 150px; 
+  resize: vertical; 
 }
 
 #smcopy {
@@ -138,11 +138,11 @@ form {
 
 #submit {
   grid-area: submit;
-  background-color: rgba(192, 232, 247, 0.963); /* Matched background color */
-  color: #000000; /* Matched font color */
+  background-color: rgba(192, 232, 247, 0.963); 
+  color: #000000; 
   border: none;
-  padding: 10px 20px; /* Adjusted padding for better appearance */
-  cursor: pointer; /* Added cursor pointer for usability */
+  padding: 10px 20px; 
+  cursor: pointer; 
 }
 
 @media (min-width: 425px) {
