@@ -4,6 +4,13 @@ form {
   padding: 10px;
 }
 
+#email
+#name
+#subject
+#age {
+  width: 50px;
+}
+
 #email {
   grid-area: email;
 }
@@ -22,8 +29,6 @@ form {
 
 #message {
   grid-area: message;
-  width: 200px;
-  height: 100px;
 }
 
 #smcopy {
@@ -88,71 +93,61 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
-    #name h1 {
-      font-size: 24px;
-    }
-    .title {
-      font-size: 18px;
-    }
+  #name h1 {
+    font-size: 24px;
   }
-  
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    #name h1 {
-      font-size: 28px;
-    }
-    .title {
-      font-size: 20px;
-    }
+  .title {
+    font-size: 18px;
   }
-  
-  @media only screen and (min-width: 769px) {
-    #name h1 {
-      font-size: 32px;
-    }
-    .title {
-      font-size: 22px;
-    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #name h1 {
+    font-size: 28px;
   }
-  
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #name h1 {
+    font-size: 32px;
+  }
+  .title {
+    font-size: 22px;
+  }
+}
+
+body {
+  background-image: url(background_photo.jpg);
+  background-size: cover;
+}
+
+.title,
+#my_name {
+  border: 2px solid;
+  text-align: center;
+  font-style: italic;
+  font-family: "Arial Narrow Bold";
+}
+
+@media screen and (max-width: 480px) {
   body {
-    background-image: url(background_photo.jpg);
-    background-size: cover;
+    background-color: lightblue;
   }
-  
-  .title,
-  #my_name {
-    border: 2px solid;
-    text-align: center;
-    font-style: italic;
-    font-family: "Arial Narrow Bold";
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
   }
-  
-  @media screen and (max-width: 480px) {
-    body {
-      background-color: lightblue;
-    }
-    .form {
-      padding: 20px;
-      border: 1px solid #f06767;
-    }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: lightyellow;
   }
-  
-  @media screen and (min-width: 481px) and (max-width: 768px) {
-    body {
-      background-color: lightgreen;
-    }
-    .form {
-      padding: 30px;
-      border: 2px solid #e58f3d;
-    }
-  }
-  
-  @media screen and (min-width: 769px) {
-    body {
-      background-color: lightyellow;
-    }
-    .form {
-      padding: 40px;
-      border: 3px solid #f16e6e;
-    }
-  }
+
+}
