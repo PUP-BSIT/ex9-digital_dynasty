@@ -6,4 +6,4 @@ Paul Angelo Reyes - https://reyes-paulangelo.netlify.app/
 Shamma San Jose Bergado - https://bergado-shamma.netlify.app
 John Ruiz Parayno Reyes - https://reyes-john-ruiz.netlify.app/
 Mary Nicole Perillo Norona - https://661d48daeb9ee700bbf39e08--norona-mary-nicole.netlify.app/
-Daisy Cangayda Morcoso - 
+Daisy Cangayda Morcoso - https://morcoso-daisy.netlify.app/
