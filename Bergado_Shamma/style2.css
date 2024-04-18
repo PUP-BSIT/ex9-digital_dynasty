@@ -1,7 +1,7 @@
 * {
   margin: 8px;
-  padding: 8px;
   box-sizing: border-box;
+  font-weight: bold;
 }
 
 body {
@@ -17,17 +17,30 @@ body {
   margin: auto;
 }
 
+.hobbies-and-interests,
+.works,
+#testimonials,
+.gallery,
+.contact-me {
+  background-color: white;
+  margin: 3%;
+  padding: 4%;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 .hobbies-and-interests p,
 .works li {
-  box-shadow: 2px 2px 2px 2px #0096ff;
   background-color: rgb(173, 216, 230);
   color: black;
-  font-weight: bolder;
+  box-shadow: 2px 2px 2px 2px #0096ff;
 }
 
 .pictures img {
   width: 300px;
   height: 200px;
+  box-shadow: 2px 2px 2px 2px rgb(173, 216, 230);
+  border-style: solid;
+  margin: 20px;
 }
 
 .hobbies-and-interests a {
@@ -58,28 +71,12 @@ li {
   list-style-position: inside;
 }
 
-.messages {
-  background-color: rgb(0, 71, 171);
-  box-shadow: 2px 2px 2px 2px #0096ff;
-}
-
-.hobbies-and-interests,
-.works,
-#testimonials,
-.gallery,
-.contact-me {
-  box-shadow: 2px 2px 2px 2px black;
-  background-color: white;
-  margin: 3%;
-  padding: 4%;
-}
-
 ul,
 .pictures,
 ol {
-  box-shadow: 2px 2px 2px 2px #0096ff;
   background-color: rgb(0, 71, 171);
   color: white;
+  box-shadow: 2px 2px 2px 2px #0096ff;
   overflow: auto;
 }
 
@@ -87,26 +84,18 @@ ol {
 #pol,
 #mary,
 #daisy {
-  box-shadow: 2px 2px 2px 2px #0096ff;
-  white-space: pre-line;
   background-color: rgb(173, 216, 230);
-  font-weight: bolder;
-  padding-bottom: 10%;
+  white-space: pre-line;
+  box-shadow: 2px 2px 2px 2px #0096ff;
   text-align: center;
-  width: auto;
   overflow: auto;
-}
-
-.pictures img {
-  box-shadow: 2px 2px 2px 2px rgb(173, 216, 230);
-  border-style: solid;
-  margin: 20px;
 }
 
 form {
   background-color: rgb(0, 71, 171);
-  box-shadow: 2px 2px 2px 2px #0096ff;
   margin: auto;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px #0096ff;
 }
 
 #email,
@@ -116,9 +105,8 @@ form {
 #message,
 #submit {
   background-color: rgb(173, 216, 230);
-  box-shadow: 2px 2px 2px 2px #0096ff;
-  font-weight: bolder;
   font-size: larger;
+  box-shadow: 2px 2px 2px 2px #0096ff;
 }
 
 #email {
@@ -152,7 +140,6 @@ form {
 
 label {
   color: white;
-  font-weight: bolder;
   font-size: larger;
 }
 
@@ -164,16 +151,16 @@ label {
   grid-area: watch;
 }
 
-.writing {
-  grid-area: write;
-}
-
 .painting {
   grid-area: paint;
 }
 
 .singing {
   grid-area: sing;
+}
+
+.writing {
+  grid-area: write;
 }
 
 .psych {
@@ -187,33 +174,12 @@ label {
 .it {
   grid-area: it;
 }
-
 .nurse {
   grid-area: nurse;
 }
 
 .law {
   grid-area: law;
-}
-
-.watching {
-  grid-area: watch;
-}
-
-#ruiz {
-  grid-area: rui;
-}
-
-#pol {
-  grid-area: pol;
-}
-
-#mary {
-  grid-area: mary;
-}
-
-#daisy {
-  grid-area: daisy;
 }
 
 .img-one {
@@ -256,10 +222,10 @@ ul {
 }
 
 .messages {
-  display: grid;
-  grid-template-areas:
-    "rui mary pol"
-    "daisy daisy daisy";
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(0, 71, 171);
+  box-shadow: 2px 2px 2px 2px #0096ff;
 }
 
 .form {
@@ -270,6 +236,24 @@ ul {
     ". checkbox"
     "message ."
     "submit submit";
+}
+
+input[type="number"],
+input[type="email"],
+input[type="text"],
+button[type="submit"] {
+  width: 90%;
+  height: auto;
+}
+
+#message {
+  width: 90%;
+  height: auto;
+}
+
+button {
+  width: 90%;
+  height: auto;
 }
 
 .pictures {
@@ -316,21 +300,6 @@ ul {
     grid-gap: 10px;
   }
 
-  .messages {
-    display: grid;
-    grid-template-areas:
-      "pol pol"
-      "rui rui"
-      "mary mary"
-      "daisy daisy";
-    grid-gap: 10px;
-  }
-
-  .messages p {
-    font-size: 7px;
-    height: 80px;
-  }
-
   .form {
     display: grid;
     grid-template-areas:
@@ -347,18 +316,18 @@ ul {
   input[type="email"],
   input[type="text"],
   button[type="submit"] {
-    width: 230px;
-    height: 30px;
+    width: 90%;
+    height: auto;
   }
 
   #message {
-    width: 230px;
-    height: 40px;
+    width: 90%;
+    height: auto;
   }
 
   button {
-    width: 170px;
-    height: 30px;
+    width: 90%;
+    height: auto;
   }
 
   .pictures {
@@ -411,24 +380,13 @@ ul {
     grid-gap: 10px;
   }
 
-  .messages {
-    display: grid;
-    grid-template-areas:
-      "pol mary"
-      "rui daisy";
-    grid-gap: 10px;
-    height: auto;
-  }
-
-  .messages p {
-    font-size: 7px;
-  }
-
   .form {
     display: grid;
     grid-template-areas:
-      "email name"
-      "age subject"
+      "email email"
+      "name name"
+      "age age"
+      "subject subject"
       ". checkbox"
       "message message"
       "submit submit";
@@ -438,23 +396,18 @@ ul {
   input[type="email"],
   input[type="text"],
   button[type="submit"] {
-    width: 95px;
-    height: 30px;
-  }
-
-  button[type="submit"] {
-    width: 220px;
-    height: 30px;
+    width: 90%;
+    height: auto;
   }
 
   #message {
-    width: 220px;
-    height: 40px;
+    width: 90%;
+    height: auto;
   }
 
   button {
-    width: 170px;
-    height: 30px;
+    width: 90%;
+    height: auto;
   }
 
   .pictures {
@@ -509,19 +462,6 @@ ul {
     grid-gap: 10px;
   }
 
-  .messages {
-    display: grid;
-    grid-template-areas:
-      "mary daisy"
-      "rui pol";
-    grid-gap: 10px;
-    height: auto;
-  }
-
-  .messages p {
-    font-size: 7px;
-  }
-
   .form {
     display: grid;
     grid-template-areas:
@@ -530,24 +470,25 @@ ul {
       ". checkbox"
       "message message"
       "submit submit";
+    overflow: scroll;
   }
 
   input[type="number"],
   input[type="email"],
   input[type="text"],
   button[type="submit"] {
-    width: 95%;
-    height: 30px;
+    width: 90%;
+    height: auto;
   }
 
   #message {
-    width: 95%;
-    height: 40px;
+    width: 90%;
+    height: auto;
   }
 
   button {
-    width: 170px;
-    height: 30px;
+    width: 90%;
+    height: auto;
   }
 
   .pictures {
